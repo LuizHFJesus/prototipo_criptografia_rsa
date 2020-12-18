@@ -1,0 +1,44 @@
+	1 - Gerar chaves
+
+
+
+O sistema de criptografia RSA funciona com pares de chaves no qual são únicas para cada usuário, consistindo na 
+chave pública (e) e na chave privada(d) e no "n"
+
+
+Pu = {e, n}
+
+Pr = {d, n}
+
+
+	*- Anote as suas chaves -*
+
+
+
+
+
+
+
+	02 - Criptografar mensagem
+
+
+
+A entrada da mensagem será via o arquivo "mensagem.txt" localizado na pasta "arquivos_usuario". Será necessário
+também entrar com a chave pública (e) e com o "n" do usuário que receberá essa mensagem para efetuar a criptografia.
+
+A mensagem criptografada será armazenada no arquivo "cifragem.txt" também localizado na pasta "arquivos_usuario.txt".
+
+
+
+
+
+
+
+	3 - Descriptografar mensagem 
+
+
+A entrada da mensagem criptografada será via o arquivo "cifragem.txt", localizado na pasta "arquivos_usuario".
+Será necessário também informar a chave privada (d) e o "n" do usuário que recebeu a mensagem criptografada 
+para efetuar a descriptografia. 
+A mensagem descriptografada será armazenada no arquivo "mensagem.txt" também 
+localizado na pasta "arquivos_usuario"

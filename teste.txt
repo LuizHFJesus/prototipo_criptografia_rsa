@@ -1,0 +1,20 @@
+02 - Criptografar mensagem.
+
+    e = 3 , n = 22
+
+"mensagem.txt" =  15691596
+
+resultado "cifragem.txt" =  9 18 3 9 3 18 
+
+
+
+
+
+
+03 - Descriptografar mensagem.
+
+    d = 7 , n = 22
+
+"cifragem.txt" =  9 18 3 9 3 18 
+
+resultado "mensagem.txt" =  15691596

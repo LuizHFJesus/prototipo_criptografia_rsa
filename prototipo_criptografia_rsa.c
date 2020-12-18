@@ -41,8 +41,9 @@ int main(){
                         te = (p - 1) * (q - 1);
                     }while( (te == 4) || (te == 6) );
 
-                    //para te == 4 existe apenas a combinação de chaves e = 5 , d = 5
-                    //para te == 6 existe apenas a combinação de chaver e = 3 , d = 3
+                    // te = totiente de euler
+                    // para te == 4 existe apenas a combinação de chaves e = 5 , d = 5
+                    // para te == 6 existe apenas a combinação de chaver e = 3 , d = 3
 
                     e = gera_e(te);
                     d = gera_d(e, te);
